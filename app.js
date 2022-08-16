@@ -424,7 +424,7 @@ switch (dayOfWk) {
 */
 
 /*
-CHAPTER 41 & 42
+CHAPTER 42 & 43
 let i = 0;
 while (i < 5) {
   console.log(i);
@@ -437,3 +437,76 @@ do {
   j++
 } while (j > 5 );
 */
+
+/*
+CHAPTER 44
+<script>
+ function sayHi() {
+ alert("Hello world!")
+ }
+
+ function sayBye() {
+ alert("Buh-bye!");
+ }
+ </script>
+*/
+
+/*
+CHAPTER 45
+<a href="#" onClick="alert('Hi');">Click</a>
+*/
+
+/*
+CHAPTER 46
+<a href="JavaScript:void(0)" onClick="var greet="hi'; alert(greet);">Click</a>
+*/
+
+/*
+CHAPTER 47
+<img src="before-pic.jpg" onMouseover="src='after-pic.jpg'"></img>
+<p id="loris" onMouseover="expand();">Slow Loris: Mouse over for more info</p>
+onMouseout="src='before-pic.jpg'">
+*/
+
+/*
+CHAPTER 48
+<input type="text" size="30" onFocus="this.style.backgroundColor='yellow';">
+onBlur="this.style.backgroundColor='white';">
+*/
+
+/*
+CHAPTER 49
+<form onSubmit="checkAddress('email');">
+function checkAddress(fieldId) {
+ if (document.getElementById(fieldId).value === "") {
+ alert("Email address required.");
+ }
+ }
+*/
+
+/*
+CHAPTER 50
+<form>
+ZIP:<br>
+<input type="text" id="zip" onBlur="fillCity();"><br>
+City:<br>
+<input type="text" id="city">
+</form>
+
+function fillCity() {
+ var cityName;
+ var zipEntered = document.getElementById("zip").value;
+ switch (zipEntered) {
+ case "60608" :
+ cityName = "Chicago";
+ break;
+ case "68114" :
+ cityName = "Omaha";
+ break;
+ case "5321
+ }
+ document.getElementById("city").value = cityName;
+}
+*/
+
+
