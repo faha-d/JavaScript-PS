@@ -509,4 +509,93 @@ function fillCity() {
 }
 */
 
+/*
+CHAPTER 51
 
+function pera() {
+  let para1 = "<ul><li>Fast Loris<li/>Slow Loris<li><li><ul/>";
+  let para = document.getElementById("para");
+  para.innerHTML = para1
+}
+*/
+
+/*
+CHAPTER 52
+
+function makeInvisible() {
+  let img = document.getElementById("car");
+  img.style.display = "none"
+}
+
+function makeInvisible() {
+  let img = document.getElementById("car");
+  img.className = "hidden"
+}
+*/
+
+/*
+CHAPTER 53
+
+function swapImg() {
+  let img = document.getElementById("img");
+  img.src = "https://w7.pngwing.com/pngs/38/708/png-transparent-car-mercedes-car-love-compact-car-vehicle-thumbnail.png"
+}
+
+function undoImg() {
+  let img = document.getElementById("img");
+  img.src = "https://www.freeiconspng.com/thumbs/car-png/land-rover-range-rover-car-png-25.png"
+}
+
+
+function changeImg(id, img) {
+  let image = document.getElementById(id);
+  image.src = img
+}
+*/
+
+/*
+CHAPTER 54
+function getAddress() {
+  var link = document.getElementById("link1");
+  var address = link.href;
+}
+
+function enlargeForm() {
+  var frm = document.getElementById("link1");
+  frm.className = "jumbo";
+}
+*/
+
+/*
+CHAPTER 55
+
+function makeBig() {
+   document.getElementById("p1").style.fontSize = "2em";
+   
+}
+
+ document.getElementById("pic99").style.cssFloat = "left";
+ document.getElementById("mainPic").style.margin = "0 10px 0 10px;
+ */
+
+/*
+ CHAPTER 56
+ let para = document.getElementsByTagName("p");
+ para[0].style.color = "blue";
+ for (let i = 0; i < para.length; i++) {
+  para[i].style.color = "blue"
+ }
+*/
+
+/*
+CHAPTER 57
+
+let e = document.getElementByID("rules");
+let paragraphs = e.getElementsByTagName("p");
+
+var t = document.getElementById("table9");
+var cells = t.getElementsByTagName("td");
+for (var i = 0; i < cells.length; i++) {
+  cells[i].style.backgroundColor = "pink";
+}
+*/
